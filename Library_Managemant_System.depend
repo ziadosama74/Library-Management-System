@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1767602063 source:h:\library_managemant_system\src\member.cpp
+
+1767632413 source:h:\library_managemant_system\main.cpp
+	<iostream>
+	<conio.h>
+	"Admin.h"
+	"Librarian.h"
+	"Member.h"
+	"Book.h"
+	"MyLibrary.h"
+
+1767631521 h:\library_managemant_system\include\admin.h
+	"Person.h"
+
+1767601734 h:\library_managemant_system\include\person.h
+	<iostream>
+	<string>
+
+1767631704 h:\library_managemant_system\include\librarian.h
+	"Person.h"
+	<iostream>
+
+1767602052 h:\library_managemant_system\include\member.h
+	"Person.h"
+	"Book.h"
+	<iostream>
+
+1767600564 h:\library_managemant_system\include\book.h
+	<iostream>
+	<string>
+
+1763540838 h:\library_managemant_system\include\mylibrary.h
+	<windows.h>
+
