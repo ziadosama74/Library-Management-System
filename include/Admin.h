@@ -1,27 +1,19 @@
-#ifndef LIBRARIAN_H
-#define LIBRARIAN_H
+#ifndef ADMIN_H
+#define ADMIN_H
 
 #include "Person.h"
 
-class Librarian : public Person {
+class Admin : public Person {
 public:
-    Librarian(int id, string n, string e, string p)
-        : Person(id, n, e, p, "Librarian") {}
+    Admin(int id, string n, string e, string p)
+        : Person(id, n, e, p, "Admin") {}
 
-    void addBook() {
-        cout << "Book added\n";
+    void addUser() {
+        cout << "Admin added a user\n";
     }
 
-    void editBook() {
-        cout << "Book edited\n";
-    }
-
-    void deleteBook() {
-        cout << "Book deleted\n";
-    }
-
-    void generateReports() {
-        cout << "Reports generated\n";
+    void removeUser() {
+        cout << "Admin removed a user\n";
     }
 };
 
